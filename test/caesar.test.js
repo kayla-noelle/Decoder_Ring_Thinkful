@@ -50,7 +50,12 @@ describe("caesar", ()=>{
         let expected = false
         expect(actual).to.equal(expected)
     })
-
+    
+    it('(Zebra Magazine, 3) should be: cheud pdjdclqh', ()=>{
+        let actual =caesar("Zebra Magazine",3)
+        let expected = 'cheud pdjdclqh'
+        expect(actual).to.equal(expected)
+    })
 
 })
 

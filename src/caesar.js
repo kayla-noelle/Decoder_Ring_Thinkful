@@ -43,7 +43,7 @@ const caesarModule = function () {
         message += alphabet[newIndex];
       } 
     }
-    return message
+    return message;
     
     }
     
